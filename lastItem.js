@@ -2,8 +2,7 @@
 // the last item in the input array
 
 var getLastItem = function(array){
-	var counter = array.length - 1
-	return array[counter]
+	return array[array.length - 1]
 }
 
 console.assert(getLastItem(['lannister','baratheon','tyrell']) === 'tyrell')
